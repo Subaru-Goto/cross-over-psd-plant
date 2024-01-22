@@ -1,7 +1,8 @@
+import Navigation from './components/Navigation';
 import Monstera from './components/Monstera';
 import HeroSection from './components/HeroSection';
 import Agave from './components/Agave';
-import Navigation from './components/Navigation';
+import BestSeller from './components/BestSeller';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <Monstera />
       <Agave />
+      <BestSeller />
     </main>
   )
 }
