@@ -37,10 +37,11 @@
   align-items: center;
 
   .bs-info-text{
-    font-size: 1rem;
+    font-size: 1.5rem;
     @media screen and (max-width: 768px) {
       min-width: 300px;
       text-align: center;
+      font-size: 1rem;
     }
   }
 
