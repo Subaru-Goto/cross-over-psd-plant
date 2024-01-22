@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hero-section {
+  background-image: url("../assets/images/background-image_1.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "Nunito Sans", Verdana, sans-serif;
+  padding: 8% 0;
+}
+
+.title {
+  padding: 0 33%;
+}
+
+.hero-section p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.hero-section h1 {
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: -9px;
+}
+
+.hero-section h2 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 0.6;
+}
+
+.text {
+  padding-left: 120px;
+  padding-top: 8%;
+}
+
+.text p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  position: relative;
+  width: 43%;
+  line-height: 1.1;
+}
+
+.text p::before {
+  content: "";
+  height: 3px;
+  width: 180px;
+  position: absolute;
+  background: white;
+  top: -15px;
+}
+
+.text .icons {
+  font-size: 1.5rem;
+  padding-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-section h1 {
+    font-size: 6.5rem;
+  }
+
+  .hero-section h2 {
+    font-size: 3.7rem;
+    font-weight: 300;
+    line-height: 0.6;
+  }
+
+  .text p {
+    font-size: 1.4rem;
+    width: 45%;
+  }
+
+  .text p::before {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero-section h1 {
+    font-size: 5rem;
+  }
+
+  .hero-section h1 {
+    font-size: 5rem;
+    margin-left: -5px;
+  }
+
+  .hero-section h2 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 0.6;
+  }
+
+  .text p {
+    font-size: 1.2rem;
+    width: 50%;
+  }
+
+  .text p::before {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #222;
+  }
+
+  .text {
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #222;
+  }
+  .text p {
+    width: 87%;
+  }
+
+  .text p::before {
+    width: 140px;
+    background-color: #222;
+  }
+  .text .icons {
+    font-size: 1rem;
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+  }
+}
