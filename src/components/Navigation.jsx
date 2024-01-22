@@ -26,6 +26,9 @@ const Navigation = () => {
           <a href="#indoor-plants">
             <PiLeafLight /> Indoor Plants
           </a>
+          <a href="#healthy-happy">
+            <PiLeafLight /> Tipps
+          </a>
         </div>
       </nav>
     </>

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.healthy-happy {
+  background-image: url("../assets/images/background-image_6.jpg");
+  background-size: cover;
+  background-position: right;
+  width: 100vw;
+  color: white;
+  font-family: "Nunito Sans", Verdana, sans-serif;
+}
+
+.healthy-title {
+    padding: 7% 6%;
+    height: 95vh;
+    font-size: 10px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-left: 40%;
+  }
+
+.healthy-happy {
+    font-size: 8em;
+    font-weight: 600;
+    line-height: 1;
+ }
+
+.healthy-happy h2 {
+    font-size: 8em;
+ }
+
+ .healthy-happy h3 {
+    font-size: 4em;
+ }
+
+ .healthy-happy p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.1;
+  }
+
+
+@media screen and (max-width: 1200px) {
+    .healthy-title {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .healthy-title {
+        font-size: 7px;
+        margin-left: 0;
+    }
+    
+}
