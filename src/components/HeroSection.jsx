@@ -6,8 +6,8 @@ import { GiWaterDrop } from "react-icons/gi";
 
 const HeroSection = () => {
   return (
-    <>
-      <main className="hero-section">
+    
+      <main id="home" className="hero-section">
         <div className="title">
           <p>plant lover & co.</p>
           <h1>HOUSE PLANTS</h1>
@@ -24,7 +24,7 @@ const HeroSection = () => {
           </div>
         </div>
       </main>
-    </>
+
   );
 };
 

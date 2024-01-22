@@ -1,3 +1,4 @@
+import Navigation from './components/Navigation';
 import Monstera from './components/Monstera';
 import HeroSection from './components/HeroSection';
 import Agave from './components/Agave';
@@ -7,10 +8,11 @@ function App() {
 
   return (
     <main>
+      <Navigation />
       <HeroSection />
       <Monstera />
       <Agave />
-      < BestSeller/>
+      <BestSeller />
     </main>
   )
 }
