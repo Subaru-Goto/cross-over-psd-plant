@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.monstera-section {
+  height: 100vh;
+  width: 100%;
+}
+
+.monstera-container{
+  display: flex;
+  align-items: flex-end;
+  height: 80%;
+  padding-inline: 7rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/background-image_2.jpg");
+  
+  @media screen and (max-width: 1024px) {
+    padding-inline:0;
+    justify-content: center;
+  }
+
+}
+.monstera-title{
+  font-size: 6rem;
+  line-height: 0;
+  color: #203621;
+  font-family: "Roboto", sans-serif;
+}
+
+.monstera-logo-section{
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: 7rem;
+
+  @media screen and (max-width: 1024px) {
+    padding-inline:0;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.monstera-logo-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.monstera-subtitle{
+  font-size: 5rem;
+  min-width: 400px;
+  margin-top: -50px;
+  color: #203621;
+  font-family: "Meie Script", cursive;
+}
+
+.monstera-light-card,
+.monstera-water-card,
+.monstera-food-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14rem;
+  text-align: center;
+}
+
+.monstera-light-logo,
+.monstera-water-logo,
+.monstera-food-logo {
+  font-size: 3rem;
+  margin-top: 3rem;
+  line-height: 0;
+}
+
+.monstera-light,
+.monstera-food,
+.monstera-water {
+  font-size: 1.8rem;
+  line-height: 0;
+}
+
+.monstera-light-info,
+.monstera-water-info,
+.monstera-food-info{
+  font-size: 1rem;
+}
