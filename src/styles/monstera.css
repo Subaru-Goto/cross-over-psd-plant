@@ -99,6 +99,9 @@
   font-size: 3rem;
   margin-top: 3rem;
   line-height: 1.5;
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 .monstera-light,
@@ -106,6 +109,9 @@
 .monstera-water {
   font-size: 1.8rem;
   line-height: 1.5;
+  @media screen and (max-width: 768px) {
+    font-size: 1.3rem;
+  }
 }
 
 .monstera-light-info,
