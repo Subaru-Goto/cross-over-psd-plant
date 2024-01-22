@@ -8,12 +8,12 @@ const HeroSection = () => {
   return (
     
       <main id="home" className="hero-section">
-        <div className="title">
+        <div className="hero-title">
           <p>plant lover & co.</p>
           <h1>HOUSE PLANTS</h1>
           <h2>care guide</h2>
         </div>
-        <div className="text">
+        <div className="hero-text">
           <p>
             Easy, hassle-free, steps to ensure that your beloved plants stay
             happy and evergreen indoors

@@ -5,7 +5,7 @@ import "../styles/best-seller.css";
 
 const BestSeller = () => {
   return (
-    <section>
+    <section id="best-sellers">
       <div className="bs-text-container">
         <h3 className="bs-subtitle">Best selling</h3>
         <h2 className="bs-title">Indoor plants</h2>

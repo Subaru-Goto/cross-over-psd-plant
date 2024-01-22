@@ -14,13 +14,17 @@ const Navigation = () => {
           <a href="#home">
             <PiLeafLight /> Home
           </a>
-          <a href="#new-arrivals">
-            <PiLeafLight />
-            New Arrivals
+          <a href="#featured">
+            <PiLeafLight /> Featured Plant
           </a>
-          <a href="#monstera">
-            <PiLeafLight />
-            Monstera
+          <a href="#new-arrivals">
+            <PiLeafLight /> New Arrivals
+          </a>
+          <a href="#best-sellers">
+            <PiLeafLight /> Best Sellers
+          </a>
+          <a href="#indoor-plants">
+            <PiLeafLight /> Indoor Plants
           </a>
         </div>
       </nav>
