@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.single-plant {
+  display: grid;
+  grid-template-columns: 10vw 80vw 10vw;
+}
+
+img {
+  grid-area: 1/2/2/3;
+  z-index: 2;
+  padding: 8% 0;
+  width: 80vw;
+}
+
+.bg-color {
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  grid-area: 1/1/2/4;
+}
+
+.plant-text {
+  color: #222;
+  font-family: "Nunito Sans", Verdana, sans-serif;
+  font-size: 16px;
+  position: absolute;
+  left: 270px;
+  z-index: 3;
+  background-color: white;
+  padding: 50px 50px 20px 50px;
+}
+
+.plant-text h2 {
+  font-size: 4em;
+}
+
+.plant-text h3 {
+  font-weight: 300;
+  font-size: 3em;
+  padding: 10px 0;
+}
+
+.plant-text p {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.plant-text .size {
+  font-weight: 300;
+  font-size: 2.2em;
+  margin-top: 140px;
+}
+
+@media screen and (max-width: 1400px) {
+  .plant-text {
+    left: 200px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .plant-text {
+    left: 150px;
+    font-size: 10px;
+  }
+  .plant-text .size {
+    margin-top: 100px;
+  }
+  .bg-color {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .plant-text {
+    left: 150px;
+    font-size: 8px;
+    padding: 50px 30px 20px 30px;
+  }
+  .plant-text .size {
+    margin-top: 80px;
+  }
+  .bg-color {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+  }
+
+  .plant-text {
+    max-width: 260px;
+    text-align: center;
+    position: relative;
+    left: 0;
+  }
+}
