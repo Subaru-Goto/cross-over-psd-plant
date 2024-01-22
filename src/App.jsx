@@ -3,7 +3,7 @@ import Monstera from './components/Monstera';
 import HeroSection from './components/HeroSection';
 import Agave from './components/Agave';
 import BestSeller from './components/BestSeller';
-import IndoorPlants from './components/IndoorPLants';
+import IndoorPlants from './components/IndoorPlants';
 import HealthyHappy from './components/HealthyHappy';
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
       <Monstera />
       <Agave />
       <BestSeller />
-      <IndoorPlants/>
-      <HealthyHappy/>
+      <IndoorPlants />
+      <HealthyHappy />
     </main>
   )
 }
