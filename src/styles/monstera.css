@@ -9,21 +9,23 @@
 .monstera-container{
   display: flex;
   align-items: flex-end;
-  height: 80%;
+  height: 70%;
+  width: 100%;
   padding-inline: 7rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../assets/images/background-image_2.jpg");
   
   @media screen and (max-width: 1024px) {
-    padding-inline:0;
     justify-content: center;
+    background-size: 100%;
+    height: 300px;
   }
 
 }
 .monstera-title{
   font-size: 6rem;
-  line-height: 0;
+  line-height: 1.5;
   color: #203621;
   font-family: "Roboto", sans-serif;
 }
@@ -76,14 +78,14 @@
 .monstera-food-logo {
   font-size: 3rem;
   margin-top: 3rem;
-  line-height: 0;
+  line-height: 1.5;
 }
 
 .monstera-light,
 .monstera-food,
 .monstera-water {
   font-size: 1.8rem;
-  line-height: 0;
+  line-height: 1.5;
 }
 
 .monstera-light-info,
