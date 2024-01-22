@@ -1,0 +1,74 @@
+.bd-section{
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 8rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: #efefef;
+  max-height: 800px;
+  width: 100%;
+}
+
+.bd-title{
+  font-size: 5rem;
+}
+
+.bd-info{
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  font-weight: lighter;
+  color: slategray;
+}
+
+.bd-image-container{
+  margin-top: auto;
+  display: grid;
+grid-template-areas:
+". . . . ."
+ "w1 plant1 . plant3 w2"
+ ". . plant2 plant3 ."
+ ". . plant2 . ."
+ ". . plant2 . plant4"
+ ". . plant2 . .";
+
+  & img{
+    width: 100px;
+  }
+
+  .bd-img1{
+    grid-area: plant1;
+    width: 200px;
+  }
+
+  .bd-img2{
+    height: 500px;
+    width: 200px;
+    grid-area: plant2;
+  }
+
+  .bd-img3{
+    width: 150px;
+    height: 400px;
+    grid-area: plant3;
+  }
+
+  .bd-img4{
+    grid-area: plant4;
+    width: 100px;
+  }
+
+  .white-block-1{
+    grid-area: w1;
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+  }
+  .white-block-2{
+    grid-area: w2;
+    background-color: white;
+    justify-self: end;
+    width: 100%;
+    height: 70%;
+  }
+}

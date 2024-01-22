@@ -3,6 +3,7 @@ import Monstera from './components/Monstera';
 import HeroSection from './components/HeroSection';
 import Agave from './components/Agave';
 import BestSeller from './components/BestSeller';
+import BedroomPlants from './components/BedroomPlants';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Monstera />
       <Agave />
       <BestSeller />
+      <BedroomPlants />
     </main>
   )
 }
