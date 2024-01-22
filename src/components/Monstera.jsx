@@ -5,7 +5,7 @@ import { PiPottedPlant } from "react-icons/pi";
 
 const Monstera = () => {
   return (
-    <section id="monstera" className="monstera-section">
+    <section id="featured" className="monstera-section">
       <div className="monstera-container">
         <h2 className="monstera-title">Monstera</h2>
       </div>

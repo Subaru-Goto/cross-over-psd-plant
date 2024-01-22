@@ -13,7 +13,7 @@
   padding: 8% 0;
 }
 
-.title {
+.hero-title {
   padding: 0 33%;
 }
 
@@ -36,12 +36,12 @@
   line-height: 0.6;
 }
 
-.text {
+.hero-text {
   padding-left: 120px;
   padding-top: 8%;
 }
 
-.text p {
+.hero-text p {
   font-size: 1.8rem;
   font-weight: 300;
   position: relative;
@@ -49,7 +49,7 @@
   line-height: 1.1;
 }
 
-.text p::before {
+.hero-text p::before {
   content: "";
   height: 3px;
   width: 180px;
@@ -58,7 +58,7 @@
   top: -15px;
 }
 
-.text .icons {
+.hero-text .icons {
   font-size: 1.5rem;
   padding-top: 15px;
   display: flex;
@@ -76,12 +76,12 @@
     line-height: 0.6;
   }
 
-  .text p {
+  .hero-text p {
     font-size: 1.4rem;
     width: 45%;
   }
 
-  .text p::before {
+  .hero-text p::before {
     width: 140px;
   }
 }
@@ -102,37 +102,41 @@
     line-height: 0.6;
   }
 
-  .text p {
+  .hero-text p {
     font-size: 1.2rem;
     width: 50%;
   }
 
-  .text p::before {
+  .hero-text p::before {
     width: 140px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .title {
+  .hero-section {
+    height: 100vh;
+  }
+  .hero-title {
+    margin-top: 33%;
     padding: 10%;
     background-color: rgba(255, 255, 255, 0.5);
-    color: #222;
+    color: rgb(49,59,49);
   }
 
-  .text {
+  .hero-text {
     padding: 10%;
     background-color: rgba(255, 255, 255, 0.5);
-    color: #222;
+    color: rgb(49,59,49);
   }
-  .text p {
+  .hero-text p {
     width: 87%;
   }
 
-  .text p::before {
+  .hero-text p::before {
     width: 140px;
-    background-color: #222;
+    background-color: rgb(49,59,49);
   }
-  .text .icons {
+  .hero-text .icons {
     font-size: 1rem;
     padding-top: 15px;
     display: flex;

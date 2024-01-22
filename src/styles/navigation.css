@@ -37,6 +37,9 @@ nav ul li a:hover{
 #hamnav {
     width: 100%;
     background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   
   #hamitems { display: flex; }
