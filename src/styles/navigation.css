@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", Verdana, sans-serif;
+}
+
+/* nav {
+    position: sticky; 
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #222;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid #194d00;
+}
+ */
+
+
+
+#hamnav {
+    width: 100%;
+    background: white;
+  }
+  
+  #hamitems { display: flex; }
+  #hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    padding-bottom: 7px;
+    color: #222;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 3px solid white
+  }
+  #hamitems a:hover { border-bottom: 3px solid #194d00; }
+  
+
+  #hamnav label, #hamburger { display: none; }
+
+
+@media screen and (max-width: 768px){
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #a0a0a0;
+    }
+   
+    #hamnav label { 
+      display: inline-block; 
+      color: white;
+      background: #194d00;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { display: block; }
+  }

@@ -7,7 +7,7 @@ import { GiWaterDrop } from "react-icons/gi";
 
 const Agave = () => {
   return (
-    <>
+    <section id="new-arrivals">
       <div className="mobile-container">
         <div className="plant-text">
           <h2>
@@ -33,7 +33,7 @@ const Agave = () => {
           <div className="bg-color"></div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
