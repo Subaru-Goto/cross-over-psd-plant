@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import Agave from './components/Agave';
 import BestSeller from './components/BestSeller';
 import IndoorPlants from './components/IndoorPLants';
+import HealthyHappy from './components/HealthyHappy';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Agave />
       <BestSeller />
       <IndoorPlants/>
+      <HealthyHappy/>
     </main>
   )
 }
